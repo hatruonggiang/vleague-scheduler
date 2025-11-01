@@ -86,6 +86,65 @@ def main():
     print(f"Tổng trận: {len(best_schedule.matches)}")
     print(f"Tổng vòng: {best_schedule.get_total_rounds()}")
     print("=" * 70)
+    
+    # ========== THÊM PHẦN NÀY ==========
+    
+    # 6. Lưu kết quả
+    print("\n6. Lưu kết quả...")
+    import os
+    import json
+    import time
+    
+    # Tạo thư mục outputs nếu chưa có
+    os.makedirs("outputs/schedules", exist_ok=True)
+    os.makedirs("outputs/visualizations", exist_ok=True)
+    
+    timestamp = time.strftime("%Y%m%d_%H%M%S")
+    
+    # Lưu JSON
+    schedule_data = {
+        'metadata': {
+            'timestamp': timestamp,
+            'total_rounds': best_schedule.get_total_rounds(),
+            'total_matches': len(best_schedule.matches),
+            'fitness_score': best_schedule.fitness_score,
+            'population_size': config.population_size,
+            'generations': config.n_generations
+        },
+        'matches': []
+    }
+    
+    for match in best_schedule.matches:
+        schedule_data['matches'].append({
+            'id': match.id,
+            'round': match.round_number,
+            'home_team_id': match.home_team_id,
+            'away_team_id': match.away_team_id,
+            'stadium_id': match.stadium_id
+        })
+    
+    json_path = f"outputs/schedules/schedule_{timestamp}.json"
+    with open(json_path, 'w', encoding='utf-8') as f:
+        json.dump(schedule_data, f, indent=2, ensure_ascii=False)
+    
+    print(f"   ✓ Đã lưu JSON: {json_path}")
+    
+    # Lưu biểu đồ
+    try:
+        plot_path = f"outputs/visualizations/fitness_{timestamp}.png"
+        optimizer.plot_history(save_path=plot_path)
+        print(f"   ✓ Đã lưu biểu đồ: {plot_path}")
+    except Exception as e:
+        print(f"   ⚠ Không thể lưu biểu đồ: {e}")
+    
+    # Lưu history
+    history_path = f"outputs/schedules/history_{timestamp}.json"
+    with open(history_path, 'w', encoding='utf-8') as f:
+        json.dump(optimizer.get_history(), f, indent=2)
+    
+    print(f"   ✓ Đã lưu lịch sử: {history_path}")
+    
+    print("\n✓ Hoàn thành!")
 
 if __name__ == "__main__":
     main()
