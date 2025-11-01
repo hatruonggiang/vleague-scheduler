@@ -1,0 +1,15 @@
+id,name,city,capacity,has_lighting,surface_type
+1,Sân vận động Hàng Đẫy,Hà Nội,22500,1,natural
+2,Sân vận động Thiên Trường,Nam Định,25000,1,natural
+3,Sân vận động Thiên Trường,Nam Định,25000,1,natural
+4,Sân vận động Lạch Tray,Hải Phòng,20000,1,natural
+5,Sân vận động Hà Tĩnh,Hà Tĩnh,15000,1,artificial
+6,Sân vận động Vinh,Vinh,22000,1,natural
+7,Sân vận động Pleiku,Pleiku,25000,1,natural
+8,Sân vận động Tam Kỳ,Tam Kỳ,12000,1,artificial
+9,Sân vận động Hòa Xuân,Đà Nẵng,20500,1,natural
+10,Sân vận động 19/8 Nha Trang,Nha Trang,18000,1,natural
+11,Sân vận động Quy Nhơn,Quy Nhơn,16000,1,artificial
+12,Sân vận động Thống Nhất,TP.HCM,15000,1,natural
+13,Sân vận động Gò Đậu,Thủ Dầu Một,18250,1,natural
+14,Sân Giang mở, Thái bình,10000,1,natural

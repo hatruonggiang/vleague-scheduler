@@ -1,0 +1,15 @@
+id,name,short_name,city,home_stadium_id
+1,Câu lạc bộ Bóng đá Hà Nội,HN FC,Hà Nội,1
+2,Câu lạc bộ Bóng đá Viettel,Viettel,Hà Nội,14
+3,Câu lạc bộ Bóng đá Công an Hà Nội,CAHN,Hà Nội,2
+4,Câu lạc bộ Bóng đá Thép Xanh Nam Định,Nam Định,Nam Định,3
+5,Câu lạc bộ Bóng đá Hải Phòng,Hải Phòng,Hải Phòng,4
+6,Câu lạc bộ Bóng đá Hồng Lĩnh Hà Tĩnh,Hà Tĩnh,Hà Tĩnh,5
+7,Câu lạc bộ Bóng đá Sông Lam Nghệ An,SLNA,Vinh,6
+8,Câu lạc bộ Bóng đá Hoàng Anh Gia Lai,HAGL,Pleiku,7
+9,Câu lạc bộ Bóng đá Quảng Nam,Quảng Nam,Tam Kỳ,8
+10,Câu lạc bộ Bóng đá Đà Nẵng,Đà Nẵng,Đà Nẵng,9
+11,Câu lạc bộ Bóng đá Khánh Hòa,Khánh Hòa,Nha Trang,10
+12,Câu lạc bộ Bóng đá Bình Định,Bình Định,Quy Nhơn,11
+13,Câu lạc bộ Bóng đá Thành phố Hồ Chí Minh,HCMC,TP.HCM,12
+14,Câu lạc bộ Bóng đá Bình Dương,Bình Dương,Thủ Dầu Một,13

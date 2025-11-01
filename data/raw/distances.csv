@@ -1,0 +1,67 @@
+city1,city2,distance_km
+Hà Nội,Nam Định,120
+Hà Nội,Hải Phòng,100
+Hà Nội,Hà Tĩnh,340
+Hà Nội,Vinh,290
+Hà Nội,Pleiku,1420
+Hà Nội,Tam Kỳ,790
+Hà Nội,Đà Nẵng,760
+Hà Nội,Nha Trang,1280
+Hà Nội,Quy Nhơn,1040
+Hà Nội,TP.HCM,1710
+Hà Nội,Thủ Dầu Một,1690
+Nam Định,Hải Phòng,80
+Nam Định,Hà Tĩnh,250
+Nam Định,Vinh,200
+Nam Định,Pleiku,1350
+Nam Định,Tam Kỳ,720
+Nam Định,Đà Nẵng,690
+Nam Định,Nha Trang,1210
+Nam Định,Quy Nhơn,970
+Nam Định,TP.HCM,1640
+Nam Định,Thủ Dầu Một,1620
+Hải Phòng,Hà Tĩnh,280
+Hải Phòng,Vinh,230
+Hải Phòng,Pleiku,1380
+Hải Phòng,Tam Kỳ,750
+Hải Phòng,Đà Nẵng,720
+Hải Phòng,Nha Trang,1240
+Hải Phòng,Quy Nhơn,1000
+Hải Phòng,TP.HCM,1670
+Hải Phòng,Thủ Dầu Một,1650
+Hà Tĩnh,Vinh,50
+Hà Tĩnh,Pleiku,1150
+Hà Tĩnh,Tam Kỳ,500
+Hà Tĩnh,Đà Nẵng,470
+Hà Tĩnh,Nha Trang,990
+Hà Tĩnh,Quy Nhơn,750
+Hà Tĩnh,TP.HCM,1420
+Hà Tĩnh,Thủ Dầu Một,1400
+Vinh,Pleiku,1200
+Vinh,Tam Kỳ,550
+Vinh,Đà Nẵng,520
+Vinh,Nha Trang,1040
+Vinh,Quy Nhơn,800
+Vinh,TP.HCM,1470
+Vinh,Thủ Dầu Một,1450
+Pleiku,Tam Kỳ,350
+Pleiku,Đà Nẵng,380
+Pleiku,Nha Trang,260
+Pleiku,Quy Nhơn,200
+Pleiku,TP.HCM,580
+Pleiku,Thủ Dầu Một,560
+Tam Kỳ,Đà Nẵng,50
+Tam Kỳ,Nha Trang,540
+Tam Kỳ,Quy Nhơn,300
+Tam Kỳ,TP.HCM,970
+Tam Kỳ,Thủ Dầu Một,950
+Đà Nẵng,Nha Trang,520
+Đà Nẵng,Quy Nhơn,280
+Đà Nẵng,TP.HCM,950
+Đà Nẵng,Thủ Dầu Một,930
+Nha Trang,Quy Nhơn,240
+Nha Trang,TP.HCM,430
+Nha Trang,Thủ Dầu Một,410
+Quy Nhơn,TP.HCM,670
+Quy Nhơn,Thủ Dầu Một,650
+TP.HCM,Thủ Dầu Một,30

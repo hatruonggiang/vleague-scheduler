@@ -1,0 +1,27 @@
+Giai đoạn 1: Foundation (Nền tảng)
+
+src/models/team.py
+src/models/stadium.py
+src/models/match.py
+src/models/schedule.py
+
+Giai đoạn 2: Data Processing
+5. src/data_processing/loader.py - Load CSV
+6. src/data_processing/validator.py - Validate dữ liệu
+7. src/data_processing/preprocessor.py - Tạo danh sách trận đấu
+Giai đoạn 3: Constraints
+8. src/constraints/hard_constraints.py
+9. src/constraints/soft_constraints.py
+10. src/constraints/checker.py
+Giai đoạn 4: GA Core
+11. src/ga/encoding.py - Biểu diễn nhiễm sắc thể
+12. src/ga/initialization.py - Khởi tạo quần thể
+13. src/ga/fitness.py - Hàm fitness
+14. src/ga/operators.py - Crossover, Mutation
+15. src/ga/repair.py - Sửa lịch không hợp lệ
+Giai đoạn 5: Optimization
+16. src/optimization/config.py - Config GA parameters
+17. src/optimization/ga_optimizer.py - Main optimizer
+Giai đoạn 6: Output
+18. scripts/run_optimizer.py - Script chạy chính
+19. Export kết quả (Excel, JSON)
